@@ -160,4 +160,4 @@ This project is free to use for learning and educational purposes.
 
 # Auther
 
-Developed by Asima A
+Developed by Akahatha S P
