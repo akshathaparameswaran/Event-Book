@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#f5f5f5;
+}
+
+header{
+  background:#222;
+  color:white;
+  padding:15px 30px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header button{
+  margin-left:10px;
+  padding:8px 15px;
+  border:none;
+  background:#ff9800;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+header button:hover{
+  background:#e68900;
+}
+
+.auth-container{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+
+.form-box{
+  background:white;
+  padding:30px;
+  width:320px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.form-box h2{
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.form-box input{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+.form-box button{
+  width:100%;
+  padding:12px;
+  background:#2196f3;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.form-box button:hover{
+  background:#0b7dda;
+}
+
+.hidden{
+  display:none;
+}
+
+.events{
+  padding:40px;
+}
+
+.events h2{
+  margin-bottom:20px;
+}
+
+.event-card{
+  background:white;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:10px;
+  box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.event-card button{
+  margin-top:10px;
+  padding:10px 15px;
+  border:none;
+  background:#4caf50;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.event-card button:hover{
+  background:#3d8c40;
+}
+
+.booking-section{
+  padding:40px;
+}
+
+.booking-section ul{
+  margin-top:15px;
+}
+
+.booking-section li{
+  background:white;
+  padding:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+}
